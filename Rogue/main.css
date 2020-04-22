@@ -1,0 +1,513 @@
+header {
+    background: url(images/banner.jpg) no-repeat;
+    min-height: 782px;
+    background-size: cover;
+
+}
+
+.headerMenu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: "FjallaOne";
+}
+
+.headerWraper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.headerMenu {
+    margin-left: 180px;
+    display: flex;
+    color: #fff;
+}
+
+.headerMenu div a {
+    border-bottom: 1px solid #111112;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.headerMenu div {
+    height: 44px;
+    width: inherit;
+    justify-content: space-between;
+    padding-top: 52px;
+    padding-right: 98px;
+
+}
+
+.menuLogo {
+    height: 186px;
+    width: 168px;
+    margin-top: -42px;
+
+}
+
+.headerMenu a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #ff1a2c;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 600px) and (max-width : 1200px) {
+    * {
+        max-width: 100%;
+        float: none;
+    }
+
+}
+
+/*************************************************************************/
+.cliсkButton button,
+.aboutUsContent button,
+.cookingClassesContainer button,
+.wineTestingWraper button {
+    background: #ff1a2c;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 auto;
+    border: none;
+    font-size: 20px;
+    font-family: "FjallaOne";
+    height: 50px;
+    width: 180px;
+    justify-content: center;
+    margin-top: 548px;
+    display: flex;
+}
+
+.cliсkButton button:hover,
+.aboutUsContent button:hover,
+.cookingClassesContainer button:hover,
+.wineTestingWraper button:hover {
+    background-color: #e9404f;
+    color: #000;
+    border: none;
+}
+
+.cliсkButton button:hover {
+    text-decoration: none;
+
+}
+
+/******************************************************************/
+.aboutUsContainer {
+    height: 710px;
+    background: #fff;
+    display: flex;
+}
+
+.aboutUsWraper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.aboutUsHeader p,
+.cooking,
+.personalTrainingContent p,
+.wineTestingHeader p,
+.testimonialsHeader h3 {
+    font-size: 30px;
+    font-family: "Great Vibes";
+    color: #ff1a2c;
+    margin-top: 70px;
+    justify-content: center;
+    margin-left: 14px;
+    display: flex;
+    line-height: 0.933;
+}
+
+.aboutUsHeader h2,
+.classes,
+.personalTrainingContent h2,
+.wineTestingHeader h3,
+.testimonialsHeader p {
+    font-size: 44px;
+    font-family: "FjallaOne";
+    text-transform: uppercase;
+    color: #333;
+    margin-top: 14px;
+    justify-content: center;
+    display: flex;
+}
+
+.aboutUsContentContainer {
+    height: 458px;
+    width: 1140px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.aboutUsContent {
+    display: block;
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: #3d3738;
+    height: 440px;
+    width: 454px;
+    padding-right: 30px;
+    line-height: 1.55;
+}
+
+.contentPart2 {
+    margin-top: 46px;
+}
+
+.aboutUsPicture {
+    height: 440px;
+    width: 316px;
+}
+
+.aboutUsPictures img {
+    padding-right: 22px;
+}
+
+.aboutUsContent button {
+    margin-top: 40px;
+}
+
+/************************************************************/
+.cookingClassesContainer {
+    height: 828px;
+    background: #22191a;
+    background-size: cover;
+    display: block;
+
+}
+
+.cookingClassesWraper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.cookingClassesHeader {
+    height: 90px;
+}
+
+.classes {
+    color: #fff;
+}
+
+.cooking {
+    padding-top: 70px;
+}
+
+.cookingClassesContent {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Open Sans";
+    line-height: 1.75;
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 180px;
+    padding-right: 98px;
+    display: flex;
+}
+
+.fotoCarousel .foto img {
+    height: 300px;
+    width: 390px;
+}
+
+.fotoCarousel {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.fotoCarousel ul {
+    display: flex;
+}
+
+/**************************************************************/
+.cookingClassesContainer button {
+    margin-top: 98px;
+}
+
+.personalTrainingContainer {
+    height: 700px;
+}
+
+.personalTrainingWraper {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.personalTrainingPhoto,
+.personalTrainingContent {
+
+    height: 564px;
+    width: 558px;
+    margin: 72px 0;
+}
+
+.TrainingPhoto1 {
+    margin-bottom: 22px;
+}
+
+.personalTrainingContent p {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.PersonalTrainingCall p {
+    font-family: "FjallaOne";
+    color: rgb(34, 25, 26);
+    line-height: 0.933;
+    text-indent: 30px;
+    margin-top: 44px;
+}
+
+.PersonalTrainingCall span {
+    color: #ff1a2c;
+}
+
+.personalTrainingContent .text {
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(34, 25, 26);
+    line-height: 1.75;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.personalTrainingContainer p.PersonalTrainingCall p {
+    font-size: 30px;
+    font-family: "FjallaOne";
+    color: rgb(34, 25, 26);
+    line-height: 0.933;
+}
+
+
+/*************************************************************/
+.wineTestingContainer {
+    height: 1268px;
+    background-color: #22191a;
+    display: flex;
+}
+
+.wineTestingWraper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.wineTestingHeader {
+    height: 84px;
+}
+
+.wineTestingHeader h3 {
+    color: #fff;
+}
+
+.wineTestingCard {
+    height: 900px;
+    margin-top: 52px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wineTestingCard a:hover {
+    text-decoration: none;
+}
+
+.wineCard {
+    height: 420px;
+    width: 266px;
+}
+
+.wineCartRead {
+    font-size: 22px;
+    font-family: "FjallaOne";
+    color: rgb(255, 255, 255);
+    line-height: 1.455;
+    text-align: center;
+}
+
+.wineCard img {
+    width: 264px;
+    height: 366px;
+}
+
+.wineCard p {
+    margin-top: 16px;
+}
+
+.wineTestingWraper button {
+    margin-top: 50px;
+}
+
+/*****************************************************************/
+.testimonialsHeppyClientsContainer {
+    background: url(images/footerBackground.jpg) no-repeat;
+    min-height: 604px;
+    background-size: cover;
+}
+
+.testimonialsHeppyClientsWraper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.testimonialsHeader {
+    width: 554px;
+    height: 492px;
+    margin-top: 0;
+    float: left;
+}
+
+.testimonialsHeader p {
+    color: #fff;
+}
+
+.testimonialsHeader h3 {
+    margin-top: 0;
+    padding-top: 70px;
+}
+
+.testimonialsIcon {
+    color: #ff1a2c;
+    font-size: 20px;
+    text-align: center;
+}
+
+.testimonialsContent p {
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.75;
+    text-align: left;
+    text-transform: none;
+}
+
+.testimonialsContent blockquote {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "OpenSans";
+    font-weight: bold;
+    line-height: 1.75;
+    text-align: center;
+    color: #fff;
+}
+
+.footerContainer {
+    height: 160px;
+    background-color: #22191a;
+}
+
+.footerWraper {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footerLogo img {
+    height: 136px;
+    width: 122px;
+    margin-top: 10px;
+}
+
+.footerMenu {
+    text-decoration: none;
+    margin: 66px 148px 0 170px;
+    width: 570px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerMenu a {
+    color: #fff;
+    font-size: 18.244px;
+    font-family: "FjallaOne";
+    line-height: 1.535;
+}
+
+.footerMenu a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #ff1a2c;
+    padding-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerConnectWithUs {
+    padding-top: 48px;
+    margin: 0 auto;
+
+}
+
+.footerConnectWithUs h3 {
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.footerIconContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.footerIcon {
+    color: #ff1a2c;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    border: 1px #ff1a2c solid;
+    top: 50%;
+    right: 50%;
+}
+
+.footerEnd {
+    height: 40px;
+    background: #000;
+}
+
+.footerEndWraper,
+.backToTopWraper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.quet {
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    text-align: center;
+    top: 14px;
+}
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #ff1a2c;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    display: none;
+    font-size: 40px;
+}
+
+.back_to_top:hover {
+    background: #e9404f;
+}
+
+.back_to_top-show {
+    display: block;
+}
